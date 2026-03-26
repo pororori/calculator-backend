@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/index.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/add", "dest": "api/index.py" }
+  ]
+}

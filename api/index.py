@@ -79,5 +79,4 @@ def init_db():
     except Exception as e:
         return {"ok": False, "error": str(e)}
 
-fastapi
-pg8000
+

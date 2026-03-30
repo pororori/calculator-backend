@@ -1,1 +1,2 @@
 fastapi
+pg8000

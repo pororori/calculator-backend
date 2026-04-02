@@ -53,7 +53,7 @@ def add(a: float = Query(...), b: float = Query(...)):
     return {"result": result}
 
 
-@app.get("/logs")
+@app.get("/api/logs")
 def logs(limit: int = Query(20, ge=1, le=100)):
     try:
         ensure_table()

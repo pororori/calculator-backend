@@ -4,7 +4,7 @@
   ],
   "routes": [
     { "src": "/add", "dest": "api/index.py" },
-    { "src": "/logs", "dest": "api/index.py" },
+    { "src": "/api/logs", "dest": "api/index.py" },
     { "src": "/init-db", "dest": "api/index.py" }
   ]
 }
